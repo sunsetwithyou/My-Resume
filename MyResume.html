@@ -6,47 +6,48 @@
     <title>My Resume</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico" >
     <style>
         /* Custom Styles for a Simple Pastel Resume with Elegant Font */
         body {
-            font-family: 'Roboto', sans-serif; /* Use Roboto for main content */
-            background-color: #eceff1; /* Soft pastel background */
-            color: #000000; /* Soft purple text */
+            font-family: 'Roboto', sans-serif; 
+            background-color: #eceff1; 
+            color: #000000; 
         }
         .profile-img {
-            width: 150px;
-            height: 150px;
+            width: 200px;
+            height: 200px;
             border-radius: 50%;
             object-fit: cover;
-            border: 4px solid #90a4ae; /* Soft lavender border */
+            border: 4px solid #90a4ae; 
             margin-bottom: 20px;
         }
         h1 {
-            font-family: 'Montserrat', sans-serif; /* Use Montserrat for headings */
+            font-family: 'Montserrat', sans-serif; 
             font-size: 2.5em;
             font-weight: bold;
-            color: #000000; /* Soft purple */
+            color: #000000; 
         }
         em {
             font-family: 'Roboto', sans-serif;
-            color: #000000; /* Slightly darker purple */
+            color: #000000; 
             font-style: normal;
             font-weight: bold;
         }
         hr {
-            border-top: 2px solid #e0f7fa; /* Purple divider */
+            border-top: 2px solid #e0f7fa; 
             width: 50%;
             margin: 15px auto;
         }
         .navbar {
-            background-color: #263238; /* Darker purple navbar */
+            background-color: #263238; 
         }
         .navbar-brand, .nav-link {
             color: #ffffff !important;
             font-weight: bold;
         }
         .section-title {
-            background-color: #b0bec5; /* Soft lavender */
+            background-color: #b0bec5; 
             padding: 10px;
             border-radius: 10px;
             margin-top: 30px;
@@ -57,7 +58,7 @@
         }
         /* Section backgrounds for a soft pastel look */
         section {
-            background-color: #cfd8dc; /* Soft pastel background */
+            background-color: #cfd8dc; 
             padding: 20px;
             border-radius: 10px;
             margin-bottom: 20px;
@@ -72,7 +73,7 @@
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <a class="navbar-brand" href="#">My Resume</a>
+        <a class="navbar-brand" href="#">Farm huk khong Paint with Dog</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -140,13 +141,20 @@
         <section id="contact">
             <h2 class="section-title text-center">Contact</h2>
             <ol class="contact-list">
-                <ol>Email : 6652300613@stu.pim.ac.th</ol>
-                <ol>Phone : 013-177-569</ol>
+                <ol>Email : 6652300613<span><img class="Dog" src="C:\Users\Lenovo\Downloads\MyResume\Add-Dog.png" alt="$" style="width: 30px; height: 30px;"></span>stu.pim.ac.th</ol>
+                <ol>Phone : 013-177-5369</ol>
                 <ol><a href="https://github.com/sunsetwithyou" target="_blank">Github : sunsetwithyou</a></ol>
                 <ol>Address : 123/45 ซอยสุขุมวิท 22 ถนนสุขุมวิท แขวงคลองตัน เขตคลองเตย กรุงเทพมหานคร 10111 ประเทศไทย</ol>
             </ol>
         </section>
     </div>
+
+    <script>
+        function toggleMenu() {
+            const nav = document.querySelector('nav');
+            nav.classList.toggle('active');
+        }
+    </script>
 
     <!-- JavaScript for Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
