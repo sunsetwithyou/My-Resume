@@ -1,0 +1,59 @@
+/* Custom Styles for a Simple Pastel Resume with Elegant Font */
+body {
+    font-family: 'Roboto', sans-serif; 
+    background-color: #eceff1; 
+    color: #000000; 
+}
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #90a4ae; 
+    margin-bottom: 20px;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #000000; 
+}
+em {
+    font-family: 'Roboto', sans-serif;
+    color: #656565; 
+    font-style: normal;
+    font-weight: bold;
+}
+hr {
+    border-top: 2px solid #000000; 
+    width: 50%;
+    margin: 15px auto;
+}
+.navbar {
+    background-color: #263238; 
+}
+.navbar-brand, .nav-link {
+    color: #ffffff !important;
+    font-weight: bold;
+}
+.section-title {
+    background-color: #b0bec5; 
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.contact-list {
+    list-style-type: decimal;
+    color: #000000;
+}
+/* Section backgrounds for a soft pastel look */
+section {
+    background-color: #cfd8dc; 
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.container {
+    margin-top: 5rem;
+}
